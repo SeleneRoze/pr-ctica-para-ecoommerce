@@ -1,0 +1,119 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+   <h1> HTML Avanzado</h1> 
+   <h2>Tablas</h2> <!--las tablas son un conjunto estructurado de datos compuesto por filas y columnas-->
+   <caption> Mi primera tabla</caption><!--representa una titulo descriptivo enuna tabla-->
+   <table border- 2><!--crea una tabla-->
+   <tr> <!--Crea una fila--></tr>
+   <th>Nombre</th> <!--representa un encabezado-->
+</tr>
+<td>Mar</td> <!-- Representa celdas de datos-->
+<td>Vallladolid</td>
+   </table>
+   <br>
+   <br>
+   <hr>
+   <h3> Tabla expandida</h3>
+<table border="1">
+<tr>
+<td>ítem4</td>
+<td>item5</td>
+</tr>
+<tr>
+<td rowspan="2">item 1</td>
+<td>item 2</td>
+<td>item 3</td>
+</tr>
+<tr>
+<td>item 4</td>
+<td>item 5</td>
+<br>
+<br>
+<hr>
+<h3>Columna extendida </h3>
+
+<table>
+<tr>
+<td>item 1</td>
+<td colspan="3">item 2</td>
+</tr>
+<tr>
+<td> item1 </td>
+<td> item 2</td>
+<td> item 3</td>
+<td> item 4</td>
+</tr>
+</table>
+</tr>
+</table>
+<table>
+<caption> tabla con datos de mascotas</caption>
+<thead>
+<tr>
+<th> Nombre</th>
+<th>Edad </th>
+<th>Raza </th>
+<th>Color</th>
+<th>Genero</th>
+<th>Apodo</th>
+</tr>
+</thead>
+<tbody>
+<table border="3">
+<tr>
+<td>Sra. Bigotes</td>
+<td> 7 meses</td>
+<td>California Ordinario</td>
+<td>Blanco con rayas grises</td>
+<td>Femenino</td>
+<td>Bigotitos</td>
+</tr>
+<tr>
+<td>Osa</td>
+<td>6 meses</td>
+<td>oreja caida/ ordinario</td>
+<td>Gris claro/ oscuro </td>
+<td>Femenino</td>
+<td>Osita</td>
+</tr>
+</tbody>
+<tfoot>
+<tr>
+<td colspan="6">Bebenejas</td>
+</tr>
+</tfoot>
+</table>
+</table>
+
+<style>
+Table {width: 50%;
+border-collapse: collapse; /*Borde para la tabla*/
+border: 2px solid pink;
+}
+
+th,td {
+    border: 1px solid salmon; /* Borde para las celdas*/
+    padding: 8px;
+    text-align: justify;
+    }
+th {
+background-color: darksalmon;/* color para los encabezados*/
+}
+tbody {
+    background-color: bisque;/*color de fondo para las filas*/
+}
+tfoof { 
+font-weight: bold;
+background-color: salmon;/* letra para pide de tabla en negritas*/
+}
+
+</style>
+</body>
+</html>
