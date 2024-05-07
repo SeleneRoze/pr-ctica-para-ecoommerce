@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Registrar una consulta</h1>
+    <!--Pasos para crear un formulario
+    1.Elemento form
+    2.Agregar labels e inputs
+ -->
+ <!--  Formulario para esta sesion va a ser
+        para un consultorio dental, vamos a requerir
+        ciertos datos por parte del usuario:
+ 
+ 
+        Nombre completo
+        Numero de telefono
+        Correo electronico
+        Fecha de la cita
+        La hora para la cita
+        Metodo de pago
+        Guardar info del metodo de pago (si/no)
+        Boton para enviar esa info
+ -->
+<form action="" method="">
+    <label for="">Nombre completo</label>
+    <input type="text" id="nombre-input">
+
+    <label for="">Número telefónico</label>
+    <input type="text" id="telefono-input">
+    
+    <label for="">Edad</label>
+    <input type="number" id="edad-input" min="0" max="21">
+    
+    <label for="">Correo electronico</label>
+    <input type="email" id="email-input">
+
+    <label for="">Fecha:</label>
+    <input type="date" id="fecha-input">
+
+    <label for="">Hora:</label>
+    <input type="time" id="Hora-input">
+
+    <label for="tarjeta">Tarjeta debito/credito</label>
+    <input type="radio" id="tarjeta-input" name="pago">
+    <label for="deposito-input">Deposito </label>
+    <input type="radio" id="deposito-input" name="pago">
+<label for="transferencia-input"> Transferencia</label>
+  <input type="radio" id="transferencia-input" name="pago">
+
+  <label for="guardar-info-input">Guardar mis datos para una consulta futura</label>
+<input type="checkbox" id="guardar-info-input">
+<button type="submit"> Enviar</button>
+
+</form>
+
+</body>
+</html>
